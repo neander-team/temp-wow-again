@@ -1,0 +1,43 @@
+{
+  "analysis_title": "이미지 분석 결과",
+  "image_analysis_result": "이미지 분석 결과",
+  "image_analysis_scale": "이미지 분석 척도",
+  "fragrance_type_analysis": "향수 유형 분석",
+  "fragrance_note_analysis": "향 노트 분석",
+  "style_suggestion": "스타일 제안",
+  "image_visualization": "이미지 시각화",
+  "similarity_comparison": "유사도 비교",
+  "image_analysis_value": "이미지 분석 값",
+  "fragrance_characteristics": "향수 특성",
+  "style_recommendation": "이 유형은 {{keywords}} 등의 스타일과 잘 어울립니다. 특히 {{scenarios}} 같은 상황에서 돋보입니다.",
+  "copyright": "© 2023 AC'SCENT WOW. All Rights Reserved.",
+  "scale_names": {
+    "cute_sexy": "큐티 vs 섹시",
+    "childhood_friend_chaebol": "소꿉친구 vs 재벌3세",
+    "bookworm_athlete": "공부벌레 vs 체육특기생",
+    "cold_warm": "차도남 vs 훈훈남",
+    "day_night": "빛의수호자 vs 다크나이트"
+  },
+  "scale_descriptions": {
+    "cute_sexy": {
+      "low": "볼 꼬집고 싶은 아기토끼상",
+      "high": "비 맞은 채 턱선 강조되는 티저 포토"
+    },
+    "childhood_friend_chaebol": {
+      "low": "편의점에서 라면 사주는 소꿉친구",
+      "high": "생일에 백화점 한 층 대관한 남자친구"
+    },
+    "bookworm_athlete": {
+      "low": "도서관에서 안경 고쳐쓰는 학생회장",
+      "high": "체육대회 때 여심 흔드는 에이스"
+    },
+    "cold_warm": {
+      "low": "팬사인회에서도 웃음 안 보이는 미스터리",
+      "high": "모두에게 따뜻하게 인사하는 국민 남동생"
+    },
+    "day_night": {
+      "low": "햇살 아래 밝게 웃는 청량한 소년",
+      "high": "무대 조명 아래 강렬한 카리스마의 퍼포머"
+    }
+  }
+} 

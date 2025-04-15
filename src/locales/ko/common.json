@@ -1,0 +1,49 @@
+{
+  "app_name": "AC'SCENT WOW",
+  "app_description": "AI가 당신의 최애를 분석하고 어울리는 향수를 추천합니다",
+  "landing": {
+    "title": "당신의 최애를 향수로 표현한다면?",
+    "subtitle": "최애의 이미지를 업로드하고 AI의 밈스러운 분석과 향수 추천을 받아보세요",
+    "upload_button": "이미지 업로드하기",
+    "or_text": "또는",
+    "paste_url": "이미지 URL 붙여넣기",
+    "sample_images": "샘플 이미지"
+  },
+  "analysis": {
+    "loading": "당신의 최애를 분석하고 있어요...",
+    "result_title": "당신의 최애 분석 결과",
+    "character_type": "캐릭터 유형",
+    "fragrance_recommendation": "추천 향수",
+    "personality_traits": "성격 특성",
+    "main_characteristic": "주요 특성",
+    "behaviors": "행동 패턴",
+    "fan_interaction": "팬과의 상호작용",
+    "media_presence": "미디어 존재감",
+    "unique_qualities": "독특한 매력 포인트",
+    "attraction_analysis": "매력 분석",
+    "appeal_type": "매력 유형",
+    "fan_psychology": "팬 심리학",
+    "core_appeal_points": "핵심 매력 포인트",
+    "fragrance_notes": "향수 노트",
+    "top_notes": "탑 노트",
+    "middle_notes": "미들 노트",
+    "base_notes": "베이스 노트",
+    "overall_impression": "종합적인 인상",
+    "fragrance_experience": "향수 경험",
+    "matching_reason": "매칭 이유",
+    "save_result": "결과 저장하기",
+    "try_another": "다른 이미지로 시도하기"
+  },
+  "footer": {
+    "made_with": "사랑을 담아 만들었습니다",
+    "privacy_policy": "개인정보 처리방침",
+    "terms_of_service": "이용약관",
+    "language": "언어"
+  },
+  "errors": {
+    "upload_failed": "업로드에 실패했습니다",
+    "analysis_failed": "분석에 실패했습니다",
+    "invalid_image": "유효하지 않은 이미지입니다",
+    "try_again": "다시 시도해주세요"
+  }
+} 

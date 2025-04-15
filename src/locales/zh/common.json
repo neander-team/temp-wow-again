@@ -1,0 +1,49 @@
+{
+  "app_name": "香水预测师",
+  "app_description": "AI分析您最喜欢的偶像并推荐最匹配的香水",
+  "landing": {
+    "title": "如果您的偶像是一款香水会是什么样的？",
+    "subtitle": "上传偶像的图片，获取AI搞笑分析和香水推荐",
+    "upload_button": "上传图片",
+    "or_text": "或者",
+    "paste_url": "粘贴图片URL",
+    "sample_images": "示例图片"
+  },
+  "analysis": {
+    "loading": "正在分析您的偶像...",
+    "result_title": "分析结果",
+    "character_type": "性格类型",
+    "fragrance_recommendation": "推荐香水",
+    "personality_traits": "性格特点",
+    "main_characteristic": "主要特征",
+    "behaviors": "行为模式",
+    "fan_interaction": "与粉丝互动",
+    "media_presence": "媒体表现",
+    "unique_qualities": "独特魅力点",
+    "attraction_analysis": "魅力分析",
+    "appeal_type": "吸引力类型",
+    "fan_psychology": "粉丝心理学",
+    "core_appeal_points": "核心魅力点",
+    "fragrance_notes": "香水成分",
+    "top_notes": "前调",
+    "middle_notes": "中调",
+    "base_notes": "基调",
+    "overall_impression": "整体印象",
+    "fragrance_experience": "香水体验",
+    "matching_reason": "匹配原因",
+    "save_result": "保存结果",
+    "try_another": "尝试另一张图片"
+  },
+  "footer": {
+    "made_with": "用爱制作",
+    "privacy_policy": "隐私政策",
+    "terms_of_service": "服务条款",
+    "language": "语言"
+  },
+  "errors": {
+    "upload_failed": "上传失败",
+    "analysis_failed": "分析失败",
+    "invalid_image": "无效图片",
+    "try_again": "请重试"
+  }
+} 

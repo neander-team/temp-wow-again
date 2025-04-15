@@ -1,0 +1,43 @@
+{
+  "analysis_title": "香水类型分析结果",
+  "image_analysis_result": "图像分析结果",
+  "fragrance_type_analysis": "香水类型分析",
+  "image_analysis_scale": "图像分析比例",
+  "similarity_comparison": "相似度比较",
+  "image_analysis_value": "图像分析值",
+  "fragrance_characteristics": "香水特性",
+  "fragrance_note_analysis": "香水成分分析",
+  "image_visualization": "图像可视化",
+  "style_suggestion": "风格建议",
+  "copyright": "© 2025 偶像「钟亨」香水类型分析服务",
+  "scale_names": {
+    "cute_sexy": "可爱 vs 性感",
+    "childhood_friend_chaebol": "青梅竹马 vs 财阀三世",
+    "bookworm_athlete": "书呆子 vs 运动健将",
+    "cold_warm": "冷都男 vs 暖男",
+    "day_night": "光之守护者 vs 暗夜骑士"
+  },
+  "scale_descriptions": {
+    "cute_sexy": {
+      "low": "像婴儿兔子一样想捏脸颊",
+      "high": "雨中下颚线条突出的预告照"
+    },
+    "childhood_friend_chaebol": {
+      "low": "在便利店给你买泡面的青梅竹马",
+      "high": "为生日包下百货公司整层的男友"
+    },
+    "bookworm_athlete": {
+      "low": "图书馆里推眼镜的学生会长",
+      "high": "运动会上迷倒女生的王牌"
+    },
+    "cold_warm": {
+      "low": "粉丝见面会上也不笑的神秘人",
+      "high": "向所有人热情问候的国民弟弟"
+    },
+    "day_night": {
+      "low": "阳光下灿烂微笑的清爽少年",
+      "high": "舞台灯光下充满魅力的表演者"
+    }
+  },
+  "style_recommendation": "这种香水类型与{{keywords}}等风格特别匹配。在{{scenarios}}等场合尤其出彩。"
+} 

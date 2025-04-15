@@ -1,0 +1,49 @@
+{
+  "app_name": "FragranceCaster",
+  "app_description": "AI analyzes your favorite idol and recommends the perfect fragrance",
+  "landing": {
+    "title": "What if your favorite idol was a fragrance?",
+    "subtitle": "Upload an image of your idol and get a meme-worthy analysis and fragrance recommendation",
+    "upload_button": "Upload Image",
+    "or_text": "or",
+    "paste_url": "Paste image URL",
+    "sample_images": "Sample Images"
+  },
+  "analysis": {
+    "loading": "Analyzing your favorite idol...",
+    "result_title": "Analysis Results",
+    "character_type": "Character Type",
+    "fragrance_recommendation": "Recommended Fragrance",
+    "personality_traits": "Personality Traits",
+    "main_characteristic": "Main Characteristic",
+    "behaviors": "Behavior Patterns",
+    "fan_interaction": "Fan Interaction",
+    "media_presence": "Media Presence",
+    "unique_qualities": "Unique Qualities",
+    "attraction_analysis": "Attraction Analysis",
+    "appeal_type": "Appeal Type",
+    "fan_psychology": "Fan Psychology",
+    "core_appeal_points": "Core Appeal Points",
+    "fragrance_notes": "Fragrance Notes",
+    "top_notes": "Top Notes",
+    "middle_notes": "Middle Notes",
+    "base_notes": "Base Notes",
+    "overall_impression": "Overall Impression",
+    "fragrance_experience": "Fragrance Experience",
+    "matching_reason": "Matching Reason",
+    "save_result": "Save Result",
+    "try_another": "Try Another Image"
+  },
+  "footer": {
+    "made_with": "Made with love",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "language": "Language"
+  },
+  "errors": {
+    "upload_failed": "Upload failed",
+    "analysis_failed": "Analysis failed",
+    "invalid_image": "Invalid image",
+    "try_again": "Please try again"
+  }
+} 

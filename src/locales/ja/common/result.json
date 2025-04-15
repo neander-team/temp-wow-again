@@ -1,0 +1,43 @@
+{
+  "analysis_title": "香水タイプ分析結果",
+  "image_analysis_result": "画像分析結果",
+  "fragrance_type_analysis": "香水タイプ分析",
+  "image_analysis_scale": "画像分析スケール",
+  "similarity_comparison": "類似度比較",
+  "image_analysis_value": "画像分析値",
+  "fragrance_characteristics": "香水の特性",
+  "fragrance_note_analysis": "香りノート分析",
+  "image_visualization": "イメージの視覚化",
+  "style_suggestion": "スタイル提案",
+  "copyright": "© 2025 アイドル「ジョンヒョン」香水タイプ分析サービス",
+  "scale_names": {
+    "cute_sexy": "キュート vs セクシー",
+    "childhood_friend_chaebol": "幼馴染 vs 財閥3世",
+    "bookworm_athlete": "勉強家 vs 体育特技生",
+    "cold_warm": "クールな男 vs 温かな男",
+    "day_night": "光の守護者 vs ダークナイト"
+  },
+  "scale_descriptions": {
+    "cute_sexy": {
+      "low": "頬をつまみたくなるウサギ顔",
+      "high": "雨に濡れた鋭い顎線が強調されるティーザー写真"
+    },
+    "childhood_friend_chaebol": {
+      "low": "コンビニでラーメンを買ってくれる幼馴染",
+      "high": "誕生日にデパートのフロアを貸し切る彼氏"
+    },
+    "bookworm_athlete": {
+      "low": "図書館で眼鏡を直す学生会長",
+      "high": "体育大会で女心を揺さぶるエース"
+    },
+    "cold_warm": {
+      "low": "ファンサイン会でも笑顔を見せない謎の人",
+      "high": "誰にでも暖かく挨拶する国民的弟"
+    },
+    "day_night": {
+      "low": "日差しの下で明るく笑う爽やかな少年",
+      "high": "ステージライトの下でカリスマ溢れるパフォーマー"
+    }
+  },
+  "style_recommendation": "この香水タイプは{{keywords}}などのスタイルキーワードとよく合います。特に{{scenarios}}などのシーンで際立ちます。"
+} 

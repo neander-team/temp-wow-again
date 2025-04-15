@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 파스텔 색상 팔레트로 변경 */
+  --primary: 100, 170, 255;       /* 파스텔 블루 */
+  --secondary: 184, 219, 255;     /* 라이트 블루 */
+  --accent: 255, 183, 197;        /* 파스텔 핑크 */
+  --background: 237, 246, 255;    /* 하늘색 배경 */
+  --card: 255, 255, 255;          /* 흰색 */
+  --text-primary: 59, 87, 121;    /* 블루 그레이 */
+  --text-secondary: 107, 134, 168; /* 라이트 블루 그레이 */
+  
+  /* 추가 테마 색상 */
+  --cloud: 242, 249, 255;         /* 구름색 */
+  --stamp: 220, 238, 255;         /* 우표 배경색 */
+  --aiu-blue: 134, 184, 255; /* 최애 스웨터 색상 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--text-primary));
+  background: rgb(var(--background));
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* 404 오류 해결을 위해 이미지 제거 */
+  /* background-image: url('/images/cloud-bg.png'); */
+  background: linear-gradient(135deg, rgb(var(--background)), rgb(var(--cloud)));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply w-full max-w-md mx-auto px-4 sm:max-w-lg md:max-w-2xl lg:max-w-4xl;
+  }
+  
+  .btn-primary {
+    @apply bg-[rgb(var(--primary))] text-white py-3 px-6 rounded-xl font-medium 
+      shadow-md hover:shadow-lg transition-all duration-300 active:scale-[0.98]
+      focus:outline-none focus:ring-2 focus:ring-[rgba(var(--primary),0.6)];
+  }
+
+  .btn-secondary {
+    @apply bg-white text-[rgb(var(--primary))] py-3 px-6 rounded-xl font-medium
+      border border-[rgb(var(--primary))] hover:bg-[rgba(var(--primary),0.05)]
+      transition-all duration-300 active:scale-[0.98]
+      focus:outline-none focus:ring-2 focus:ring-[rgba(var(--primary),0.6)];
+  }
+  
+  .card {
+    @apply bg-white/90 backdrop-blur-sm p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300
+      border border-white/50;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-[rgba(var(--primary),0.3)] rounded-xl text-base
+      focus:outline-none focus:ring-2 focus:ring-[rgba(var(--primary),0.6)] focus:border-transparent
+      transition-all duration-300 bg-white/80 backdrop-blur-sm;
+  }
+  
+  .section {
+    @apply py-8 sm:py-12;
+  }
+  
+  .heading-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[rgb(var(--primary))] to-[rgb(var(--aiu-blue))];
+  }
+  
+  .icon-button {
+    @apply p-2 rounded-full hover:bg-[rgba(var(--primary),0.1)] transition-colors duration-200;
+  }
+  
+  .animate-fade-in {
+    @apply opacity-0 animate-[fadeIn_0.5s_ease-in-out_forwards];
+  }
+  
+  .lang-selector {
+    @apply px-3 py-1.5 text-sm rounded-full hover:bg-[rgba(var(--primary),0.1)] transition-colors;
+  }
+  
+  .mobile-menu {
+    @apply fixed inset-0 z-50 flex flex-col bg-white p-6 transform transition-transform duration-300;
+  }
+  
+  /* 우표 디자인 요소 */
+  .stamp {
+    @apply relative p-1 rounded-md border-[3px] border-dashed border-[rgba(var(--primary),0.3)] 
+           bg-[rgb(var(--stamp))] overflow-hidden;
+  }
+  
+  .stamp-perforation {
+    @apply absolute inset-0 border-[5px] border-white border-dotted opacity-50;
+  }
+  
+  /* 이벤트 배지 */
+  .event-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium
+           bg-[rgba(var(--accent),0.2)] text-[rgb(var(--accent))];
+  }
+  
+  /* 구름 효과 */
+  .cloud-effect {
+    @apply relative overflow-hidden rounded-2xl;
+  }
+  
+  .cloud-effect::before {
+    content: '';
+    /* 이미지 참조 대신 그라데이션 사용 */
+    @apply absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/40 to-transparent
+           opacity-25 pointer-events-none;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+} 

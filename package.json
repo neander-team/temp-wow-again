@@ -1,0 +1,47 @@
+{
+  "name": "wow3",
+  "version": "1.0.0",
+  "description": "AI를 활용한 최애 이미지 분석 및 향수 추천 애플리케이션",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --port 3004",
+    "dev:memory": "cross-env NODE_OPTIONS=--max-old-space-size=4096 next dev --port 3004",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "AI",
+    "향수",
+    "최애",
+    "이미지분석"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^10.0.6",
+    "@react-three/fiber": "^9.1.2",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "axios": "^1.8.4",
+    "i18next": "^24.2.3",
+    "next": "^15.3.0",
+    "next-i18next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.4.1",
+    "recharts": "^2.15.2",
+    "three": "^0.175.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/three": "^0.175.0",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.5.3",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^3.3.0"
+  }
+}

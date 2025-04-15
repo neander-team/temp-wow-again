@@ -1,0 +1,49 @@
+{
+  "app_name": "フレグランスキャスター",
+  "app_description": "AIがあなたの推しを分析し、ぴったりの香水をおすすめします",
+  "landing": {
+    "title": "あなたの推しが香水だったら？",
+    "subtitle": "推しの画像をアップロードして、AIのミーム的な分析と香水のおすすめを受け取りましょう",
+    "upload_button": "画像をアップロード",
+    "or_text": "または",
+    "paste_url": "画像URLを貼り付け",
+    "sample_images": "サンプル画像"
+  },
+  "analysis": {
+    "loading": "あなたの推しを分析中...",
+    "result_title": "分析結果",
+    "character_type": "キャラクタータイプ",
+    "fragrance_recommendation": "おすすめの香水",
+    "personality_traits": "性格特性",
+    "main_characteristic": "主な特徴",
+    "behaviors": "行動パターン",
+    "fan_interaction": "ファンとの交流",
+    "media_presence": "メディアでの存在感",
+    "unique_qualities": "ユニークな魅力ポイント",
+    "attraction_analysis": "魅力分析",
+    "appeal_type": "魅力タイプ",
+    "fan_psychology": "ファン心理学",
+    "core_appeal_points": "核心的な魅力ポイント",
+    "fragrance_notes": "香水ノート",
+    "top_notes": "トップノート",
+    "middle_notes": "ミドルノート",
+    "base_notes": "ベースノート",
+    "overall_impression": "全体的な印象",
+    "fragrance_experience": "香水体験",
+    "matching_reason": "マッチング理由",
+    "save_result": "結果を保存",
+    "try_another": "別の画像で試す"
+  },
+  "footer": {
+    "made_with": "愛を込めて作りました",
+    "privacy_policy": "プライバシーポリシー",
+    "terms_of_service": "利用規約",
+    "language": "言語"
+  },
+  "errors": {
+    "upload_failed": "アップロードに失敗しました",
+    "analysis_failed": "分析に失敗しました",
+    "invalid_image": "無効な画像です",
+    "try_again": "もう一度お試しください"
+  }
+} 

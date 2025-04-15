@@ -1,0 +1,43 @@
+{
+  "analysis_title": "Image Analysis Results",
+  "image_analysis_result": "Image Analysis Results",
+  "image_analysis_scale": "Image Analysis Scale",
+  "fragrance_type_analysis": "Fragrance Type Analysis",
+  "fragrance_note_analysis": "Fragrance Note Analysis",
+  "style_suggestion": "Style Suggestion",
+  "image_visualization": "Image Visualization",
+  "similarity_comparison": "Similarity Comparison",
+  "image_analysis_value": "Image Analysis Value",
+  "fragrance_characteristics": "Fragrance Characteristics",
+  "style_recommendation": "This type goes well with styles like {{keywords}}. It especially stands out in scenarios like {{scenarios}}.",
+  "copyright": "© 2023 AC'SCENT WOW. All Rights Reserved.",
+  "scale_names": {
+    "cute_sexy": "Cute vs Sexy",
+    "childhood_friend_chaebol": "Childhood Friend vs Chaebol",
+    "bookworm_athlete": "Bookworm vs Athlete",
+    "cold_warm": "Cold vs Warm",
+    "day_night": "Light Guardian vs Dark Knight"
+  },
+  "scale_descriptions": {
+    "cute_sexy": {
+      "low": "Cute baby bunny look",
+      "high": "Charismatic teaser photo with sharp jawline in rain"
+    },
+    "childhood_friend_chaebol": {
+      "low": "Childhood friend buying ramen at convenience store",
+      "high": "Boyfriend renting entire department store floor for birthday"
+    },
+    "bookworm_athlete": {
+      "low": "Student council president fixing glasses in library",
+      "high": "Sports festival ace capturing hearts"
+    },
+    "cold_warm": {
+      "low": "Mysterious figure not smiling even at fan signing",
+      "high": "National little brother greeting everyone warmly"
+    },
+    "day_night": {
+      "low": "Refreshing boy smiling under sunshine",
+      "high": "Charismatic performer under stage lights"
+    }
+  }
+} 
